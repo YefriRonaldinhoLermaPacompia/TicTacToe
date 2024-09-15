@@ -1,6 +1,5 @@
-package pe.edu.upeu.calcfx;
+package pe.edu.upeu.tictactoe;
 
-import atlantafx.base.theme.PrimerLight;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
@@ -9,14 +8,13 @@ import javafx.scene.Scene;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class CalcFxApplication extends Application {
+public class TcTacToeApplication extends Application {
 		ConfigurableApplicationContext configurableApplicationContext;
 		Parent parent;
 	public static void main(String[] args) {
@@ -29,7 +27,7 @@ public class CalcFxApplication extends Application {
 	public void init() throws Exception {
 
 		SpringApplicationBuilder builder = new
-				SpringApplicationBuilder(CalcFxApplication.class);
+				SpringApplicationBuilder(TcTacToeApplication.class);
 		builder.application().setWebApplicationType(WebApplicationType.NONE);
 		configurableApplicationContext =
 				builder.run(getParameters().getRaw().toArray(new String[0]));

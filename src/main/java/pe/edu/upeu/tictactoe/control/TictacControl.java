@@ -1,4 +1,4 @@
-package pe.edu.upeu.calcfx.control;
+package pe.edu.upeu.tictactoe.control;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -16,6 +16,11 @@ public class TictacControl {
     Button btn00, btn01, btn02,btn10, btn11, btn12, btn20,btn21, btn22;
 
     boolean turno=true;
+
+    public static void main(String[] args) {
+
+    }
+
     @FXML
     public void initialize() {
         System.out.println("holas");
@@ -41,6 +46,27 @@ public class TictacControl {
             }
             System.out.println("");
         }
+    }
+    @FXML
+    public void iniciar(){
+        activaDesacticaB(false);
+    }
+
+    @FXML
+    public void anular(){
+        activaDesacticaB(true);
+    }
+
+    public void activaDesacticaB(boolean indi){
+        btn00.setDisable(indi);
+        btn01.setDisable(indi);
+        btn02.setDisable(indi);
+        btn10.setDisable(indi);
+        btn11.setDisable(indi);
+        btn12.setDisable(indi);
+        btn20.setDisable(indi);
+        btn21.setDisable(indi);
+        btn22.setDisable(indi);
     }
 
 }

@@ -1,6 +1,6 @@
-package pe.edu.upeu.calcfx.servicio;
+package pe.edu.upeu.tictactoe.servicio;
 
-import pe.edu.upeu.calcfx.modelo.CalcTO;
+import pe.edu.upeu.tictactoe.modelo.CalcTO;
 import java.util.List;
 
 public interface CalcServiceI {

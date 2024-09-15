@@ -1,4 +1,4 @@
-package pe.edu.upeu.calcfx.modelo;
+package pe.edu.upeu.tictactoe.modelo;
 
 
 public class CalcTO {

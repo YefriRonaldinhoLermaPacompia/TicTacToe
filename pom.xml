@@ -68,7 +68,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>pe.edu.upeu.calcfx.Application</mainClass>
+					<mainClass>pe.edu.upeu.tictactoe.Application</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

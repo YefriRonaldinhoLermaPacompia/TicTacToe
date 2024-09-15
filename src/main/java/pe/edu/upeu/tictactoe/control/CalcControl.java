@@ -1,4 +1,4 @@
-package pe.edu.upeu.calcfx.control;
+package pe.edu.upeu.tictactoe.control;
 
 
 import javafx.collections.FXCollections;
@@ -14,8 +14,8 @@ import javafx.scene.layout.HBox;
 import javafx.util.Callback;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import pe.edu.upeu.calcfx.modelo.CalcTO;
-import pe.edu.upeu.calcfx.servicio.CalcServiceI;
+import pe.edu.upeu.tictactoe.modelo.CalcTO;
+import pe.edu.upeu.tictactoe.servicio.CalcServiceI;
 
 import java.util.List;
 

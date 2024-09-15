@@ -1,7 +1,7 @@
-package pe.edu.upeu.calcfx.servicio;
+package pe.edu.upeu.tictactoe.servicio;
 
 import org.springframework.stereotype.Service;
-import pe.edu.upeu.calcfx.modelo.CalcTO;
+import pe.edu.upeu.tictactoe.modelo.CalcTO;
 
 import java.util.ArrayList;
 import java.util.List;
