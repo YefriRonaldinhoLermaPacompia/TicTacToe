@@ -31,6 +31,7 @@ public class TictacControl {
     @FXML
     TextField tfJugador1, tfJugador2, tfTurno;
 
+
     Button[][] tablero;
     boolean turno = true;
     int movimientos = 0;

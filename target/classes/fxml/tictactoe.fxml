@@ -68,6 +68,8 @@
         <AnchorPane layoutX="15.0" layoutY="302.0" prefHeight="137.0" prefWidth="200.0" style="-fx-background-color: #6968b9;">
             <children>
                 <TextField layoutX="10.0" layoutY="97.0" prefHeight="24.0" prefWidth="103.0" text="JUGADOR 2:" />
+            <CheckBox layoutX="113.0" layoutY="52.0" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox layoutX="121.0" layoutY="101.0" mnemonicParsing="false" text="CheckBox" />
             </children>
         </AnchorPane>
         <TextField layoutX="22.0" layoutY="314.0" prefHeight="26.0" prefWidth="68.0" text="TURNO:" />
